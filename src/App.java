@@ -10,8 +10,7 @@ public class App {
         root.left.right = new Node(5);
 
         System.out.println("Level order traversal of binary tree is ");
-        printCurrentLevel(root, 3);
-        System.out.println(height(root));
+        printLevelOrderTraversal();
 
     }
 
